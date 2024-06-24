@@ -1,0 +1,32 @@
+body {
+    background-image: url(bgyo2.jpg);
+    background-size: cover;
+    background-position: no-repeat;
+
+}
+.header {
+    color: white; /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add padding around text */
+    border-radius: 7px;
+    
+}
+.header h1{
+    font-size: 250px;
+    color: white;
+    margin-top: 270px;    
+}
+
+nav a{
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 150%;
+
+}
+nav a:hover{
+    background-color: white;
+    color: #428bca;
+    
+}
