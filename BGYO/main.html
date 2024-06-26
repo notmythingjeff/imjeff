@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGYO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>BGYO</h1>
+        </div>
+        <button id="sidebarToggle" class="sidebar-toggle">☰</button>
+    </header>
+<!--sidebar menu-->
+    <div id="sidebar" class="sidebar">
+        <button id="closeSidebar" class="close-sidebar">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="Profile.html">BGYO Profile</a></li>  
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <form class="fr" action="">
+            <label class="fr__label" for="face-rating">How was your experience?</label>
+            <div class="fr__face" role="img" aria-label="Straight face">
+                <div class="fr__face-right-eye" data-right></div>
+                <div class="fr__face-left-eye" data-left></div>
+                <div class="fr__face-mouth-lower" data-mouth-lower></div>
+                <div class="fr__face-mouth-upper" data-mouth-upper></div>
+            </div>
+            <input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
+        </form>
+        <!--Social Media-->
+        <div class="container">
+            <div class="btn"><a href="https://www.instagram.com/bgyo_ph" target="_blank">Instagram</a></div>
+            <div class="btn"><a href="https://www.facebook.com/BGYO.PH" target="_blank">Facebook</a></div>
+            <div class="btn"><a href="https://tiktok.com/officialbgyo" target="_blank">Tiktok</a></div>
+            <div class="btn"><a href="https://www.youtube.com/BGYOofficial" target="_blank">Youtube</a></div>
+    
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
